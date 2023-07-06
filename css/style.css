@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.all-align{
+    align-items: center;
+}
+
+.heading{
+    text-align: center;
+    
+}
+.heading h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.heading span{
+    font-size: 16px;
+    color: #898c91;
+}
+
+/* common css */
+.pokeme{
+    display: inline-block;
+    padding: 19px 43px;
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    color: #0b1016;
+    text-transform: uppercase;
+
+}
+
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* nav start */
+nav .logo{
+    width: 40%;
+    align-self: center;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+
+}
+
+
+nav{
+    background-color:#02918c;
+}
+
+
+nav .menu ul li{
+    display: inline-block;
+}
+
+
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+/* nav end */
+
+/* banner start */
+
+#banner{
+    background-image: url(../image/banner.jpg);
+    height: 728px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0, 0.34);
+    background-blend-mode: multiply;
+
+}
+
+
+
+.banner-contant{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.banner-contant h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.banner-contant h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+.banner-contant h5{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner-contant img{
+    margin: 50px 0;
+    display: block;
+    margin: 50px auto;
+}
+
+#banner .container{
+    height: 100%;
+}
+
+#banner .row{
+    height: 100%;
+}
+/* banner end */
+
+/* about satrt */
+#about{
+    padding: 100px 0;
+}
+.heading p{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    
+
+}
+.heading p span{
+    font-weight: 800;
+    font-size: 23px;
+    
+    
+    
+}
+
+
+.about-card{
+    width: 25%;
+    text-align: center;
+    margin-top: 85px;
+    border-right: 1px solid #02918c;
+    padding: 50px 0;
+}
+.about-card i{
+    color:#0a9490 ;
+    font-size: 30px;
+}
+
+.about-card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 20px 0;
+}
+.about-card p{
+    font-size: 11px;
+    color: #7e8287;
+    padding: 0 50px;
+}
+.about-card:nth-child(4){
+    border: none;
+}
+/* about end */
